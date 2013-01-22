@@ -1,0 +1,31 @@
+{
+  "name": "sqlcdcstream-example",
+  "description": "An example MVC ASP.NET application utilising sqlcdcstream for realtime updates",
+  "tags": [
+    "SQLServer",
+    "MSSQL",
+    "CDC",
+    "sync",
+	"Change Data Capture"
+  ],
+  "version": "0.0.1",
+  "author": {
+    "name": "Anton Whalley",
+    "email": "anton.whalley@vodafone.ie"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/No9/sqlcdcstream-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/No9/sqlcdcstream-example/issues"
+  },
+  "dependencies": {
+    "sqlcdcstream" : "0.0.3",
+	"socket.io" : "0.9.13"
+  },
+  "devDependencies" : {
+    },
+    "scripts" : {
+  }
+}
