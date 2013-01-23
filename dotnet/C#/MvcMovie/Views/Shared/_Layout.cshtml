@@ -34,7 +34,6 @@
                     //Insert
                     var hasloaded = false;
                     trs.each(function (i, n) {
-                        log("<br/>First Child = " + n.children[0].innerHTML);
                         if (n.children[0].innerHTML == cdcitem.ID) {
                             hasloaded = true;
                             return false;
@@ -64,11 +63,8 @@
                 case 4: //Update
 
                     trs.each(function (i, n) {
-                        //var current = $(n);
-                        log("<br/>First Child = " + n.children[0].innerHTML);
                         if (n.children[0].innerHTML == cdcitem.ID) {
                             //We are at the right row
-                            log('<br/>Changing to ' + cdcitem.Title);
                             n.children[1].innerHTML = cdcitem.Title;
                             var d = new Date(cdcitem.ReleaseDate);
                             var curr_date = d.getDate();
